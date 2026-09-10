@@ -51,3 +51,7 @@ grep -Rni "NodePort" .
 grep -Rni "restart policy" .
 grep -Rni "PostgreSQL" .
 ```
+
+## Security note
+
+The uploaded source folder contained account credentials. They are **not copied into this organized pack**, because this pack is suitable for a GitHub repository and passwords should not be committed there.
